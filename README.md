@@ -8,10 +8,11 @@ A `.pcap` file parser, written in JavaScript for NodeJS.
 $ FILENAME=capture.pcap node index
 ```
 
-## Features
+## Todo
 
 - [x] Parse `.pcap` files containing only UDP packets.
 - [ ] Parse `.pcap` files containing TCP packets.
+- [ ] Correctly parse the `fragment_offset` field of the `ipv4_header`.
 
 ## Note
 
